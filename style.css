@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+body {
+  background: #aaa;
+  height: 100%;
+  position: relative;
+}
+.footer {
+  font-family: "Balsamiq Sans", cursive;
+  background: #eee;
+}
+.card {
+  font-family: "Balsamiq Sans", cursive;
+  background: #eee;
+  background-image: url("https://www.pngfind.com/pngs/m/302-3027244_hd-wallpaper-background-image-darling-in-the-franxx.png");
+  background-size: cover;
+  background-position: left;
+  width: 50%;
+  border-radius: 12px;
+  margin: 10% auto;
+  padding: 5% 2%;
+  color: #000;
+
+  h2 {
+    text-align: center;
+    color: red;
+  }
+
+  .weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+  }
+}
+
+html {
+  height: 100%;
+}
